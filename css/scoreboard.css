@@ -1,0 +1,29 @@
+h3 {
+	display: inline;	
+}
+
+.visit-team {
+	height: 50px;
+	width: 60px;
+	background-color: gray;
+	display: inline;
+	float: left;
+}
+
+.visit-team-score {
+	height: 50px;
+	width: 60px;
+	background-color: gray;
+	display: inline-block;
+}
+
+.form {
+	width: 75px;
+}
+
+th {
+	width: 50px;
+}
+
+
+

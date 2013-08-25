@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Scoreboard</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.css" rel="stylesheet" media="screen">
+    <link href="css/scoreboard.css" rel="stylesheet" media="screen">
+  </head>
+  <body>
+    <div class="container">
+      <div class="navbar">
+        <div class="navbar-inner">
+          <a class="brand"href="">Scoreboard</a>
+          <ul class="nav">
+          <li class="active" ><a href="#">Home</a></li>
+           <li class="divider-vertical"></li>
+          <li><a href="#">Game Stats</a></li>
+           <li class="divider-vertical"></li>
+          <li><a href="#">Teams Stats</a></li>
+           <li class="divider-vertical"></li>
+          <li><a href="#">Player Stats</a></li>
+           <li class="divider-vertical"></li>
+          <li><a href="#">Season Stats</a></li>
+           <li class="divider-vertical"></li>
+          </ul>
+        </div>
+      </div>
+      <h1 class="offset4">Scoreboard</h1>
+        <table class="table">
+          <div class="row-fluid">
+            <div class="span6">
+              <thead>
+                  <th>Team</th>
+                  <th>Score</th>
+            </div>
+            <div class="span6">
+                  <th>Team</th>
+                  <th>Score</th>
+              </thead>
+            </div>
+          </div>
+          <div class="row-fluid">
+            <div class="span6">
+                <tbody>
+                  <tr>
+                    <td>
+                     <form>
+                      <input class="input-medium" type="text" placeholder="Home Team">
+                     </form>
+                    </td>
+                    <td><div class="visit-team-score">Score</div></td>
+            </div>
+            <div class="span6">
+                    <td>
+                     <form>
+                      <input class="input-medium" type="text" placeholder="Home Team">
+                     </form>
+                    </td>
+                    <td><div class="visit-team-score">Score</div></td>
+                  </tr>
+            </div>
+          </div>
+          <div class="row-fluid">
+            <div class="span6">
+                <tr>
+                  <td>
+                    <form>
+                      <fieldset>
+                      <input class="input-small" type="text" placeholder="Player" />
+                      <input class="input-mini" type="text" placeholder="Jersey#" />
+                      <button type="submit" class="btn btn-primary">Points</button>
+                      </fieldset>
+                    </form>
+                  </td>
+            </div>
+            <div class="span6">
+                <td>
+                    <form>
+                      <fieldset>
+                      <input class="input-small" type="text" placeholder="Player" />
+                      <input class="input-mini" type="text" placeholder="Jersey#" />
+                      <button type="submit" class="btn btn-primary">Points</button>
+                      </fieldset>
+                    </form>
+                  </td>
+                </tr>
+            </div>
+          </div>
+              </tbody>
+        </table>
+    </div>
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>
