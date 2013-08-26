@@ -1,24 +1,25 @@
-h3 {
+/*h3 {
 	display: inline;	
-}
+}*/
 
-.visit-team {
+/*.visit-team {
 	height: 50px;
 	width: 60px;
-	background-color: gray;
+	background-color: gray;*/
+	/*display: inline;*/
+	/*float: left;*/
+/*}
+*/
+/**/
+
+/*.form {
+	width: 150px;
 	display: inline;
-	float: left;
-}
 
-.visit-team-score {
-	height: 50px;
-	width: 60px;
-	background-color: gray;
-	display: inline-block;
-}
+}*/
 
-.form {
-	width: 75px;
+span {
+	padding: 10px;
 }
 
 th {
