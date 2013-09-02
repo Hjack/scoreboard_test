@@ -63,40 +63,33 @@
                     </form>
             </div>
           </div>
-          
             <div class="row-fluid">
               <div class="offset3 span3 pull-left">
-               
                   <span>Pts</span>
                   <span>Ast</span>
                   <span>Reb</span>
                   <span>TO</span>
                   <span>Blk</span>
-                
               </div>
                <div class="offset3 span3 pull-left">
-               
                   <span>Pts</span>
                   <span>Ast</span>
                   <span>Reb</span>
                   <span>TO</span>
                   <span>Blk</span>
-                
               </div>
-
             </div>
-          
           <div class="row-fluid">
             <div class="span6">
                     <form>
                       <fieldset>
                       <input class="input-small" type="text" placeholder="Player" />
                       <input class="input-mini" type="text" placeholder="Jersey#" />
-                      <output>Points</output>
-                      <output>Assists</output>
-                      <output>Rebounds</output>
-                      <output>Turnovers</output>
-                      <output>Blocks</output>
+                      <output id="home-points"></output>
+                      <output></output>
+                      <output></output>
+                      <output></output>
+                      <output></output>
                       </fieldset>
                     </form>
             </div>
@@ -118,7 +111,7 @@
             <div class="span6">
               <form class="form-inline">
                 <fieldset>
-                  <button class="btn btn-small btn-primary">+</button>
+                  <button class="btn btn-small btn-primary homePlayer_1">+</button>
                   <button class="btn btn-small btn-danger">-</button>
                   <label class="checkbox">
                     <input type="checkbox">Points</label>
@@ -379,5 +372,6 @@
     </div>
     <script src="js/jquery.js"></script>
     <script src="js/bootstrap.min.js"></script>
+    <script src="js/app.js"></script>
   </body>
 </html>
